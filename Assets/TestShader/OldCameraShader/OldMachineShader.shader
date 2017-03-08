@@ -23,9 +23,9 @@ Shader "CameraEffect/OldMachineShader"
 			uniform half _RampOffset;
 			half4 _MainTex_ST;
 
-			float _mr;
-			float _mg;
-			float _mb;
+			fixed _mr;
+			fixed _mg;
+			fixed _mb;
 
 			fixed FixGamma(fixed inPixel)
 			{
