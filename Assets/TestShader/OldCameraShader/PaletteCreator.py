@@ -1,3 +1,4 @@
+# 创建一个16色的调色板文件，方便使用aseprite和optpix进行绘制和预处理
 import struct
 import os
 import math
