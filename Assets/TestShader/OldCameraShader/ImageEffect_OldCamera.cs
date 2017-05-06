@@ -5,8 +5,8 @@ using UnityEditor;
 
 [RequireComponent(typeof(Camera))]
 [ExecuteInEditMode]
-[AddComponentMenu("Image Effects/自定义效果/OldMachineShader")]
-public class ImageEffect_OldMachine : MonoBehaviour
+[AddComponentMenu("Image Effects/自定义效果/OldCameraShader")]
+public class ImageEffect_OldCamera : MonoBehaviour
 {
     public Texture textureRamp;
 
